@@ -10,6 +10,7 @@ of possible responses is different depending on activation phrase.
 * "Rocketman"
 * "Guardians of the Galaxy"
 * "What's up"
+* "Star lord of the milky way"
 
 ## Credits 
 [Coding Zendo](https://github.com/fractal13)

@@ -18,12 +18,12 @@ class MyFirstSkill( MycroftSkill ):
 
     @intent_handler( IntentBuilder( "" ).require( "GuardiansKeyword" ).require( "GalaxyKeyword" ) )
     def handle_guardians_of_the_galaxy_intent( self, message ):
-        LOGGER.info( "" )
+        LOGGER.info( "guardians" )
         self.speak_dialog( "guardians.galaxy", data={} )
 
     @intent_handler( IntentBuilder( "" ).require( "WhatKeyword" ).require( "UpKeyword" ) )
     def handle_whats_up_intent( self, message ):
-        LOGGER.info( "" )
+        LOGGER.info( "what's up" )
         self.speak_dialog( "whats.up", data={} )
 
 def create_skill():
